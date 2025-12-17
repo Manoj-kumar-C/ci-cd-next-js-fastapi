@@ -6,10 +6,12 @@ on:
     branches: ["master"]
     paths:
       - "frontend/**"
+      - ".github/workflows/frontend-ci-cd.yml"
   pull_request:
     branches: ["master"]
     paths:
       - "frontend/**"
+      - ".github/workflows/frontend-ci-cd.yml"
   workflow_dispatch:
 
 jobs:
